@@ -13,12 +13,15 @@ _An excerpt from the from the main repo_
 
 ### Regular (`vulgaris`)
 
+![bamboo](./assets/vulgaris.png)
 
 ### Greener (`multiplex`)
 
+![bamboo](./assets/multiplex.png)
 
 ### Light Mode (`light`)
 
+![bamboo](./assets/light.png)
 
 ## Reference
 
