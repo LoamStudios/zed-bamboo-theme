@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bamboo Theme Colors</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .theme-section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        #vulgaris {
+            background-color: #252623;
+            color: #f1e9d2;
+        }
+        #multiplex {
+            background-color: #232923;
+            color: #ece1c0;
+        }
+        #light {
+            background-color: #fafae0;
+            color: #3a4238;
+        }
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .color-card {
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .color-display {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.7);
+            text-shadow: 0 0 3px rgba(255, 255, 255, 0.7);
+        }
+        .color-info {
+            padding: 10px;
+            font-size: 14px;
+        }
+        .dark-text {
+            color: #222;
+        }
+        .light-text {
+            color: #fff;
+            text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bamboo Neovim Theme Colors</h1>
+    
+    <div class="theme-section" id="vulgaris">
+        <h2>Bamboo Vulgaris (Dark)</h2>
+        <div class="color-grid">
+            <div class="color-card">
+                <div class="color-display" style="background-color: #252623;"><span class="light-text">bg0</span></div>
+                <div class="color-info">bg0: #252623</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #2f312c;"><span class="light-text">bg1</span></div>
+                <div class="color-info">bg1: #2f312c</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #383b35;"><span class="light-text">bg2</span></div>
+                <div class="color-info">bg2: #383b35</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #3a3d37;"><span class="light-text">bg3</span></div>
+                <div class="color-info">bg3: #3a3d37</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #1c1e1b;"><span class="light-text">bg_d</span></div>
+                <div class="color-info">bg_d: #1c1e1b</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #68aee8;"><span class="light-text">bg_blue</span></div>
+                <div class="color-info">bg_blue: #68aee8</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #e2c792;"><span class="dark-text">bg_yellow</span></div>
+                <div class="color-info">bg_yellow: #e2c792</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #f1e9d2;"><span class="dark-text">fg</span></div>
+                <div class="color-info">fg: #f1e9d2</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #aaaaff;"><span class="dark-text">purple</span></div>
+                <div class="color-info">purple: #aaaaff</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #df73ff;"><span class="dark-text">bright_purple</span></div>
+                <div class="color-info">bright_purple: #df73ff</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #8fb573;"><span class="dark-text">green</span></div>
+                <div class="color-info">green: #8fb573</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #ff9966;"><span class="dark-text">orange</span></div>
+                <div class="color-info">orange: #ff9966</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #57a5e5;"><span class="dark-text">blue</span></div>
+                <div class="color-info">blue: #57a5e5</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #96c7ef;"><span class="dark-text">light_blue</span></div>
+                <div class="color-info">light_blue: #96c7ef</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #dbb651;"><span class="dark-text">yellow</span></div>
+                <div class="color-info">yellow: #dbb651</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #70c2be;"><span class="dark-text">cyan</span></div>
+                <div class="color-info">cyan: #70c2be</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #e75a7c;"><span class="light-text">red</span></div>
+                <div class="color-info">red: #e75a7c</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #f08080;"><span class="dark-text">coral</span></div>
+                <div class="color-info">coral: #f08080</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #5b5e5a;"><span class="light-text">grey</span></div>
+                <div class="color-info">grey: #5b5e5a</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #838781;"><span class="light-text">light_grey</span></div>
+                <div class="color-info">light_grey: #838781</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="theme-section" id="multiplex">
+        <h2>Bamboo Multiplex (Dark)</h2>
+        <div class="color-grid">
+            <div class="color-card">
+                <div class="color-display" style="background-color: #232923;"><span class="light-text">bg0</span></div>
+                <div class="color-info">bg0: #232923</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #2d312c;"><span class="light-text">bg1</span></div>
+                <div class="color-info">bg1: #2d312c</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #363b35;"><span class="light-text">bg2</span></div>
+                <div class="color-info">bg2: #363b35</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #383d37;"><span class="light-text">bg3</span></div>
+                <div class="color-info">bg3: #383d37</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #171f17;"><span class="light-text">bg_d</span></div>
+                <div class="color-info">bg_d: #171f17</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #68aee8;"><span class="light-text">bg_blue</span></div>
+                <div class="color-info">bg_blue: #68aee8</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #dcbf84;"><span class="dark-text">bg_yellow</span></div>
+                <div class="color-info">bg_yellow: #dcbf84</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #ece1c0;"><span class="dark-text">fg</span></div>
+                <div class="color-info">fg: #ece1c0</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #a09af8;"><span class="dark-text">purple</span></div>
+                <div class="color-info">purple: #a09af8</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #de6bdb;"><span class="dark-text">bright_purple</span></div>
+                <div class="color-info">bright_purple: #de6bdb</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #81af58;"><span class="dark-text">green</span></div>
+                <div class="color-info">green: #81af58</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #ef9946;"><span class="dark-text">orange</span></div>
+                <div class="color-info">orange: #ef9946</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #409cdc;"><span class="dark-text">blue</span></div>
+                <div class="color-info">blue: #409cdc</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #88c1e9;"><span class="dark-text">light_blue</span></div>
+                <div class="color-info">light_blue: #88c1e9</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #ceba49;"><span class="dark-text">yellow</span></div>
+                <div class="color-info">yellow: #ceba49</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #68baae;"><span class="dark-text">cyan</span></div>
+                <div class="color-info">cyan: #68baae</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #dc4f62;"><span class="light-text">red</span></div>
+                <div class="color-info">red: #dc4f62</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #e07870;"><span class="dark-text">coral</span></div>
+                <div class="color-info">coral: #e07870</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #5a5e5a;"><span class="light-text">grey</span></div>
+                <div class="color-info">grey: #5a5e5a</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #818781;"><span class="light-text">light_grey</span></div>
+                <div class="color-info">light_grey: #818781</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="theme-section" id="light">
+        <h2>Bamboo Light</h2>
+        <div class="color-grid">
+            <div class="color-card">
+                <div class="color-display" style="background-color: #fafae0;"><span class="dark-text">bg0</span></div>
+                <div class="color-info">bg0: #fafae0</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #eaead0;"><span class="dark-text">bg1</span></div>
+                <div class="color-info">bg1: #eaead0</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #e4e4cc;"><span class="dark-text">bg2</span></div>
+                <div class="color-info">bg2: #e4e4cc</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #dadac2;"><span class="dark-text">bg3</span></div>
+                <div class="color-info">bg3: #dadac2</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #c7c7af;"><span class="dark-text">bg_d</span></div>
+                <div class="color-info">bg_d: #c7c7af</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #589ed8;"><span class="light-text">bg_blue</span></div>
+                <div class="color-info">bg_blue: #589ed8</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #6f4c05;"><span class="light-text">bg_yellow</span></div>
+                <div class="color-info">bg_yellow: #6f4c05</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #3a4238;"><span class="light-text">fg</span></div>
+                <div class="color-info">fg: #3a4238</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #8a4adf;"><span class="light-text">purple</span></div>
+                <div class="color-info">purple: #8a4adf</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #c810d0;"><span class="light-text">bright_purple</span></div>
+                <div class="color-info">bright_purple: #c810d0</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #27850b;"><span class="light-text">green</span></div>
+                <div class="color-info">green: #27850b</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #df5926;"><span class="light-text">orange</span></div>
+                <div class="color-info">orange: #df5926</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #1745d5;"><span class="light-text">blue</span></div>
+                <div class="color-info">blue: #1745d5</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #177fff;"><span class="light-text">light_blue</span></div>
+                <div class="color-info">light_blue: #177fff</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #a77b00;"><span class="light-text">yellow</span></div>
+                <div class="color-info">yellow: #a77b00</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #188a9e;"><span class="light-text">cyan</span></div>
+                <div class="color-info">cyan: #188a9e</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #c72a3c;"><span class="light-text">red</span></div>
+                <div class="color-info">red: #c72a3c</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #c05050;"><span class="light-text">coral</span></div>
+                <div class="color-info">coral: #c05050</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #a1a7a0;"><span class="dark-text">grey</span></div>
+                <div class="color-info">grey: #a1a7a0</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #838781;"><span class="light-text">light_grey</span></div>
+                <div class="color-info">light_grey: #838781</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="theme-section" id="vulgaris">
+        <h2>Bamboo Vulgaris - Syntax Highlighting Colors</h2>
+        <div class="color-grid">
+            <div class="color-card">
+                <div class="color-display" style="background-color: #8fb573;"><span class="dark-text">String</span></div>
+                <div class="color-info">String: #8fb573 (green)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #ff9966;"><span class="dark-text">Constant</span></div>
+                <div class="color-info">Constant/Number/Boolean: #ff9966 (orange)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #dbb651;"><span class="dark-text">Type</span></div>
+                <div class="color-info">Type/Structure: #dbb651 (yellow)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #e75a7c;"><span class="light-text">Identifier</span></div>
+                <div class="color-info">Identifier/Variable: #e75a7c (red)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #aaaaff;"><span class="dark-text">PreProc</span></div>
+                <div class="color-info">PreProc: #aaaaff (purple)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #aaaaff;"><span class="dark-text">Keyword</span></div>
+                <div class="color-info">Keyword/Conditional: #aaaaff (purple)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #df73ff;"><span class="dark-text">Macro</span></div>
+                <div class="color-info">Macro: #df73ff (bright_purple)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #e75a7c;"><span class="light-text">Special</span></div>
+                <div class="color-info">Special: #e75a7c (red)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #57a5e5;"><span class="dark-text">Function</span></div>
+                <div class="color-info">Function: #57a5e5 (blue)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #d5cce6;"><span class="dark-text">Operator</span></div>
+                <div class="color-info">Operator: #d5cce6 (light_purple blend)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #57a5e5;"><span class="dark-text">Tag</span></div>
+                <div class="color-info">Tag: #57a5e5 (blue)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #838781;"><span class="light-text">Delimiter</span></div>
+                <div class="color-info">Delimiter: #838781 (light_grey)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #838781;"><span class="light-text">Comment</span></div>
+                <div class="color-info">Comment: #838781 (light_grey)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #e2c792;"><span class="dark-text">Todo</span></div>
+                <div class="color-info">Todo: #e2c792 (bg_yellow)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="theme-section" id="multiplex">
+        <h2>Bamboo Multiplex - Syntax Highlighting Colors</h2>
+        <div class="color-grid">
+            <div class="color-card">
+                <div class="color-display" style="background-color: #81af58;"><span class="dark-text">String</span></div>
+                <div class="color-info">String: #81af58 (green)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #ef9946;"><span class="dark-text">Constant</span></div>
+                <div class="color-info">Constant/Number/Boolean: #ef9946 (orange)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #ceba49;"><span class="dark-text">Type</span></div>
+                <div class="color-info">Type/Structure: #ceba49 (yellow)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #dc4f62;"><span class="light-text">Identifier</span></div>
+                <div class="color-info">Identifier/Variable: #dc4f62 (red)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #a09af8;"><span class="dark-text">PreProc</span></div>
+                <div class="color-info">PreProc: #a09af8 (purple)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #a09af8;"><span class="dark-text">Keyword</span></div>
+                <div class="color-info">Keyword/Conditional: #a09af8 (purple)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #de6bdb;"><span class="dark-text">Macro</span></div>
+                <div class="color-info">Macro: #de6bdb (bright_purple)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #dc4f62;"><span class="light-text">Special</span></div>
+                <div class="color-info">Special: #dc4f62 (red)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #409cdc;"><span class="dark-text">Function</span></div>
+                <div class="color-info">Function: #409cdc (blue)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #cac2e4;"><span class="dark-text">Operator</span></div>
+                <div class="color-info">Operator: #cac2e4 (light_purple blend)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #409cdc;"><span class="dark-text">Tag</span></div>
+                <div class="color-info">Tag: #409cdc (blue)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #818781;"><span class="light-text">Delimiter</span></div>
+                <div class="color-info">Delimiter: #818781 (light_grey)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #818781;"><span class="light-text">Comment</span></div>
+                <div class="color-info">Comment: #818781 (light_grey)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #dcbf84;"><span class="dark-text">Todo</span></div>
+                <div class="color-info">Todo: #dcbf84 (bg_yellow)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="theme-section" id="light">
+        <h2>Bamboo Light - Syntax Highlighting Colors</h2>
+        <div class="color-grid">
+            <div class="color-card">
+                <div class="color-display" style="background-color: #27850b;"><span class="light-text">String</span></div>
+                <div class="color-info">String: #27850b (green)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #df5926;"><span class="light-text">Constant</span></div>
+                <div class="color-info">Constant/Number/Boolean: #df5926 (orange)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #a77b00;"><span class="light-text">Type</span></div>
+                <div class="color-info">Type/Structure: #a77b00 (yellow)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #c72a3c;"><span class="light-text">Identifier</span></div>
+                <div class="color-info">Identifier/Variable: #c72a3c (red)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #8a4adf;"><span class="light-text">PreProc</span></div>
+                <div class="color-info">PreProc: #8a4adf (purple)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #8a4adf;"><span class="light-text">Keyword</span></div>
+                <div class="color-info">Keyword/Conditional: #8a4adf (purple)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #c810d0;"><span class="light-text">Macro</span></div>
+                <div class="color-info">Macro: #c810d0 (bright_purple)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #c72a3c;"><span class="light-text">Special</span></div>
+                <div class="color-info">Special: #c72a3c (red)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #1745d5;"><span class="light-text">Function</span></div>
+                <div class="color-info">Function: #1745d5 (blue)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #af99db;"><span class="dark-text">Operator</span></div>
+                <div class="color-info">Operator: #af99db (light_purple blend)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #1745d5;"><span class="light-text">Tag</span></div>
+                <div class="color-info">Tag: #1745d5 (blue)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #838781;"><span class="light-text">Delimiter</span></div>
+                <div class="color-info">Delimiter: #838781 (light_grey)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #a1a7a0;"><span class="dark-text">Comment</span></div>
+                <div class="color-info">Comment: #a1a7a0 (grey)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #6f4c05;"><span class="light-text">Todo</span></div>
+                <div class="color-info">Todo: #6f4c05 (bg_yellow)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="theme-section" id="blended">
+        <h2>Blended Colors</h2>
+        <p>These colors are derived through Lua blending functions</p>
+        <div class="color-grid">
+            <div class="color-card">
+                <div class="color-display" style="background-color: #d5cce6;"><span class="dark-text">light_purple (Vulgaris)</span></div>
+                <div class="color-info">light_purple: #d5cce6 (purple blended with fg at 0.375)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #cac2e4;"><span class="dark-text">light_purple (Multiplex)</span></div>
+                <div class="color-info">light_purple: #cac2e4 (purple blended with fg at 0.375)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #af99db;"><span class="dark-text">light_purple (Light)</span></div>
+                <div class="color-info">light_purple: #af99db (purple blended with fg at 0.375)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #b84863;"><span class="light-text">dark_red (Vulgaris)</span></div>
+                <div class="color-info">dark_red: #b84863 (red darkened by 0.2)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #b03f4e;"><span class="light-text">dark_red (Multiplex)</span></div>
+                <div class="color-info">dark_red: #b03f4e (red darkened by 0.2)</div>
+            </div>
+            <div class="color-card">
+                <div class="color-display" style="background-color: #9f2230;"><span class="light-text">dark_red (Light)</span></div>
+                <div class="color-info">dark_red: #9f2230 (red darkened by 0.2)</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+id = "bamboo"
+name = "Bamboo"
+schema_version = 1
+version = "0.1.0"
+authors = [
+    "Jeffrey Guenther <guenther.jeffrey@gmail.com>",
+    "Riley Bruins <ribru17@gmail.com>",
+]
+description = "Warm green theme for Zed"
+repository = "https://github.com/LoamStudios/zed-bamboo-theme"
